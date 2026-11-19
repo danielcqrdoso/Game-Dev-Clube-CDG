@@ -12,10 +12,9 @@ grav = 0.4;
 
 // CONTROLE DAS HABILIDADES
 
-if (!variable_global_exists("dashLiberado"))
-{
-    global.dashLiberado = false;
-}
+// Inicialmente o dash é bloqueado
+global.dashLiberado = false;
+
 
 dashLiberado = global.dashLiberado;
 
