@@ -1,0 +1,1 @@
+global.checkpoint = rm_sala2;
